@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+@import url("font.css");
+
+/* common */
+#wrap {position:relative; width:100%;}
+
+
+
+#header2020 { font-family:'Noto Sans KR', 'NanumSquare', sans-serif; font-style:normal;}
+#header2020 .top { position:relative; height:109px;}
+#header2020 .top h1 { position:absolute; top:31px; left:30px;}
+#header2020 .top .mark { position:absolute; top:46px; right:120px; font-size:0; line-height:normal;}
+#header2020 .top .mark span { margin-left:20px;}
+#header2020 .top .mark img { height:18px;}
+
+#header2020 .menu { position:relative; background: url(../images/main_200629/header_menu_back.png) repeat-x; letter-spacing:-0.02em; font-size:0; line-height:normal;}
+#header2020 .menu ul { width:156px; vertical-align:top; display:inline-block;}
+#header2020 .menu h2 { display:inline-block;}
+#header2020 .menu h2 a { width:155px; height:47px; color:#221814; font-size:17px; font-weight:500; line-height:46px; text-decoration:none; display:inline-block;}
+#header2020 .menu .sub { position:absolute; top:46px; z-index:200; background:#f6f7f7; border-left:solid 1px #e0e1e0; width:156px; min-height:250px; display:none;}
+#header2020 .menu .sub:last-child { border-right:solid 1px #e0e1e0; width:155px;}
+#header2020 .menu .sub li { padding:16px 0 0 15px; text-align:left;}
+#header2020 .menu .sub li a { color:#3e3a39; font-size:14px; font-weight:300; border-bottom:solid 1px #f6f7f7; text-decoration:none;}
+#header2020 .menu .sub li a:hover { border-bottom:solid 1px #e50011; color:#e50011;}
+#header2020 .side { position:absolute; top:119px; right:120px; font-size:0; line-height:normal;}
+#header2020 .side span { margin-left:38px;}
+#header2020 .side span a { color:#2081c6; font-size:17px; text-decoration:none; display:inline-block;}
+#header2020 .side span a:hover { color:#000;}
+
+
+	/* main */
+	#mainVisual_2020 { position:relative; width:100%; margin:0 auto; background:#fff;}
+	#mainVisual_2020 .dot { position:absolute; bottom:37px; z-index:200; width:100%; margin:0 auto; font-size:0; line-height:normal;}
+	#mainVisual_2020 .dot span { margin:0 5px;}
+	#mainVisual_2020 ul { position:relative; font-size:0; line-height:normal;}
+	#mainVisual_2020 ul li { height:748px;}
+	#mainVisual_2020 ul li.back01 { background:url(../images/main_200629/visual01_back.jpg) no-repeat top #535047;}
+	#mainVisual_2020 ul li.back02 { background:url(../images/main_200629/visual02_back.jpg) no-repeat top #747473;}
+	#mainVisual_2020 ul li.back03 { background:url(../images/main_200629/visual03_back.jpg) no-repeat top #59493b;}
+	#mainVisual_2020 ul li .txt { padding-top:258px;}
+	#mainVisual_2020 ul li .btn { margin-top:53px; font-family:'NanumSquare', sans-serif;}
+	#mainVisual_2020 ul li .btn a { background:#00a0e9; border:solid 1px #c9c9ca; width:215px; color:#fff; font-size:23px; font-weight:; line-height:58px; text-align:center; text-decoration:none; display:inline-block;}
+	#mainVisual_2020 ul li .btn a:hover { background:#000;}
+
+	#mainContent2020 { font-family:'Noto Sans KR', 'NanumSquare', sans-serif; font-style:normal;}
+	#mainContent2020 .warn { position:relative; margin:120px auto 0 auto; display:table;}
+	#mainContent2020 .warn div { vertical-align:top; display:table-cell;}
+	#mainContent2020 .warn strong { font-weight:800}
+	#mainContent2020 .infoArea { padding-left:45px; color:#261f20; text-align:left;}
+	#mainContent2020 .infoArea .title { margin-top:70px; font-size:48px;}
+	#mainContent2020 .warn .title strong { color:#ee1d23;}
+	#mainContent2020 .infoArea .txt { margin-top:25px; font-size:22px; font-weight:400; line-height:34px;}
+	#mainContent2020 .infoArea .btnArea { position:relative; font-family:'NanumSquare', sans-serif; padding-top:40px;}
+	#mainContent2020 .infoArea .btnArea span { margin:0;}
+	#mainContent2020 .title { font-family:'NanumSquare', sans-serif; color:#2e2624; font-size:43px; font-weight:700; line-height:60px;}
+	#mainContent2020 .docu { position:relative; margin-top:85px;}
+	#mainContent2020 .docu .frame { background:url(../images/main_200629/document_back.png) no-repeat bottom; margin-top:40px;}
+	#mainContent2020 .lecture { position:relative; background: url(../images/main_200629/lecture_back.png) no-repeat top center #eeefef; padding:115px 0 124px 0;}
+	#mainContent2020 .txt { font-family:'NanumSquare', sans-serif; color:#2e2624; font-size:26px; font-weight:700;}
+	#mainContent2020 .info { margin-top:67px;}
+	
+	#mainContent2020 .btnArea { position:relative; font-family:'NanumSquare', sans-serif;}
+	#mainContent2020 .btnArea span { margin:0 7px;}
+	#mainContent2020 .btnArea a { text-decoration:none; display:inline-block;}
+	#mainContent2020 .btnArea a:hover { background:#333;}
+	#mainContent2020 .btnRed01 a { background:#e60012; border:solid 1px #c9c9ca; width:170px; color:#fff; font-size:19px; font-weight:; line-height:48px; text-align:center;}
+	#mainContent2020 .btnRed02 a { background:#b60005; border:solid 1px #c9c9ca; width:170px; color:#fff; font-size:19px; font-weight:; line-height:48px; text-align:center;}
+	#mainContent2020 .btnGreen01 a { background:#c3d600; border:solid 1px #c9c9ca; width:170px; color:#fff; font-size:19px; font-weight:; line-height:48px; text-align:center;}
+	#mainContent2020 .btnGreen02 a { background:#acc500; border:solid 1px #c9c9ca; width:170px; color:#fff; font-size:19px; font-weight:; line-height:48px; text-align:center;}
+	#mainContent2020 .btnSky01 a { background:#00a0e9; border:solid 1px #c9c9ca; width:170px; color:#fff; font-size:18px; font-weight:; line-height:48px; text-align:center;}
+	
+	.banner_2020 { position:relative; border-top:solid 1px #e5e6e6; padding:70px 0 70px 0; font-size:0; line-height:0;}
+	.banner_2020 span { margin:0 5px;}
+	.banner_2020 img { border:solid 1px #c9c9ca; width:240px;}
+	
+	
+	/* quick */
+	/* 2020-07-17
+	.quick2020 { position:absolute; z-index:22; top:250px; right:34px; background:#fff; border:solid 3px #3f3a39; width:118px; -webkit-border-radius:11px; -moz-border-radius:11px; border-radius:11px;}
+	.quick2020 .title { font-family:'NanumSquare', sans-serif; background:#3f3a39; padding:10px 0 12px 0; color:#fff; font-size:20px; font-weight:bold;}
+	.quick2020 ul { margin-top:20px; font-size:0; line-height:normal;}
+	.quick2020 ul li { padding-bottom:30px;}
+	.quick2020 ul li a { width:100%; display:inline-block;}*/
+	
+	.quick2020 { position:absolute; z-index:22; top:250px; right:34px; background:url(../images/main_200629/quick_back.png) repeat; width:96px; -webkit-border-radius:11px; -moz-border-radius:11px; border-radius:11px;}
+	.quick2020 .title { font-family:'NanumSquare', sans-serif; padding-top:20px; color:#eeefef; font-size:17px; font-weight:bold;}
+	.quick2020 ul { margin-top:20px; font-size:0; line-height:normal;}
+	.quick2020 ul li { padding-bottom:30px;}
+	.quick2020 ul li a { width:100%; display:inline-block;}
+	
+	
+	/* sub */
+	.cpsinfo { position:relative; min-height:280px;}
+	.cpsinfo img { position:absolute; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;}
+	.cpsinfo ul { margin-left:400px; padding-left:40px;}
+	.cpsinfo li { position:relative; margin-top:20px; font-size:17px; font-weight:bold; padding-left:19px;}
+	.cpsinfo li .noBul { position:absolute; left:0;}
+	.cpsinfo li p { font-size:16px; font-weight:normal;}
